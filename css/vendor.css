@@ -1,27 +1,3 @@
-/* ===================================================================
- * Theme Third-party Stylesheets
- * Template Ver. 1.0.0
- * 02-16-2021
- * -------------------------------------------------------------------
- *
- * TOC:
- * 
- * # PrismJS 1.20.0
- * # Swiper 6.4.5
- * # Basiclightbox
- * 
- * ------------------------------------------------------------------- */
-
-
-
-/* ===================================================================
- * # PrismJS 1.20.0
- *   https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+markup-templating+php
- *   
- *   prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
- *   Based on https://github.com/chriskempson/tomorrow-theme
- *   @author Rose Pritchard
- * ------------------------------------------------------------------- */
 
 code[class*="language-"],
 pre[class*="language-"] {
@@ -141,17 +117,6 @@ pre[class*="language-"] {
 
 
 
-/* ===================================================================
- * # Swiper 6.4.5
- *   Most modern mobile touch slider and framework with hardware accelerated transitions
- *   https://swiperjs.com
- *
- *   Copyright 2014-2020 Vladimir Kharlampidi
- *
- *   Released under the MIT License
- *
- *   Released on: December 18, 2020
- * ------------------------------------------------------------------- */
 
 @font-face {
     font-family : "swiper-icons";
