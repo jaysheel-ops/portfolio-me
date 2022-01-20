@@ -3158,6 +3158,10 @@ img.u-pull-left {
     padding : 0 1.2rem;
 }
 
+.intro-social li::after {
+    content : ".  ";
+}
+
 .intro-social a {
     color : var(--color-text-light);
 }
@@ -4013,7 +4017,7 @@ img.u-pull-left {
 }
 
 .contact-social li::after {
-    content : ",  ";
+    content : ".  ";
 }
 
 .contact-social li:last-child::after {
