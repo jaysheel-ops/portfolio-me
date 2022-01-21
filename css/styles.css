@@ -3163,7 +3163,7 @@ img.u-pull-left {
 }
 
 .intro-social a {
-    color : var(--color-text-light);
+    color : var(--color-1);
 }
 
 .intro-social a:focus,
