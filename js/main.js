@@ -340,6 +340,14 @@
 
     }; // end ssMoveTo
 
+    /* Toggle Theme Function */
+    let theme = document.getElementById("top");
+    let themeBtn = document.getElementById("theme-btn");
+    themeBtn.addEventListener('click', function() {
+        console.log("out");
+        theme.classList.toggle("active");
+        themeBtn.classList.toggle("light-theme-btn")
+    });
 
    /* Initialize
     * ------------------------------------------------------ */

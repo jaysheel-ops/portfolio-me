@@ -75,6 +75,14 @@
     --color-gray-2  : #d0d0d0;
     --color-gray-1  : #e8e8e8;
     --color-white   : #ffffff;
+    --color-peach   : #ffd1d2;
+    --color-orangish: #EFB7BA;
+    --color-greenish: #c1e1e7;
+    --color-blue-1  : #1572A1;
+    --color-blue-2  : #9AD0EC;
+    --color-pink-1  : #c49ea6;
+    --color-green-1 : #116466;
+
 
     /* text
      */
@@ -109,6 +117,7 @@
     --color-body    : var(--color-gray-10);
     --color-border  : rgba(255, 255, 255, .05);
     --border-radius : 3px;
+
 }
 
 /* ------------------------------------------------------------------- 
@@ -489,7 +498,6 @@ textarea {
     -moz-appearance    : none;
     appearance         : none;
 }
-
 
 
 /* ===================================================================
@@ -1357,10 +1365,10 @@ blockquote cite:before {
 
 blockquote cite,
 blockquote cite a,
-blockquote cite a:visited {
+/* blockquote cite a:visited {
     color  : var(--color-text-light);
     border : none;
-}
+} */
 
 /* figures
  */
@@ -1922,7 +1930,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color : var(--color-1);
+    /* -webkit-text-fill-color : var(--color-1); */
     transition              : background-color 5000s ease-in-out 0s;
 }
 
@@ -2719,12 +2727,12 @@ img.u-pull-left {
     line-height : var(--vspace-1);
 }
 
-.mailtoui-button-copy-clicked,
+/* .mailtoui-button-copy-clicked,
 .mailtoui-button-copy-clicked:hover,
 .mailtoui-button-copy-clicked:focus {
     background-color : #1F9D55;
-    color            : white;
-}
+    color            : white; */
+/* } */
 
 .mailtoui-email-address {
     background-color : var(--mailtoui-email-address-bgcolor);
@@ -2880,15 +2888,14 @@ img.u-pull-left {
     text-transform      : uppercase;
     letter-spacing      : .35em;
     color               : white;
-    transition-property : color, background-color;
 }
 
-.mobile-home-link a:focus,
+/* .mobile-home-link a:focus,
 .mobile-home-link a:hover,
 .main-nav a:focus,
 .main-nav a:hover {
     color : var(--color-1);
-}
+} */
 
 .mobile-home-link {
     display  : inline-block;
@@ -2910,6 +2917,7 @@ img.u-pull-left {
 
 .main-nav .current a {
     background-color : var(--color-gray-9);
+    color: var(--color-1);
 }
 
 .main-nav ul {
@@ -2987,7 +2995,7 @@ img.u-pull-left {
 
 /* is clicked 
  */
-.mobile-menu-toggle.is-clicked span {
+/* .mobile-menu-toggle.is-clicked span {
     background-color : rgba(255, 255, 255, 0);
 }
 
@@ -3005,7 +3013,7 @@ img.u-pull-left {
 .mobile-menu-toggle.is-clicked span::after {
     bottom    : 0;
     transform : rotate(-45deg);
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -3143,7 +3151,7 @@ img.u-pull-left {
     list-style       : none;
     display          : flex;
     font-size        : 1rem;
-    font-weight      : 400;
+    font-weight      : 600;
     text-transform   : uppercase;
     letter-spacing   : .3em;
     margin           : 0;
@@ -4186,4 +4194,109 @@ img.u-pull-left {
     .ss-go-top {
         right : 6vw;
     }
+}
+
+
+.active {
+    background-color: var(--color-pink-1);
+    
+}
+
+.active .text-pretitle.with-line, .active .text-pretitle {
+    color:  var(--color-info-content);
+    font-weight: bold;
+}
+
+.active .text-huge-title {
+    color:white;
+}
+
+.active a {
+    color: var(--color-gray-10);
+}
+
+.active .btn:hover, .active .btn:focus {
+    color: white;
+    border: none;
+}
+
+
+.active .main-nav ul {
+    background-color: var(--color-pink-1); 
+    border-color: white 1px solid;
+}
+
+.active .main-nav ul li a {
+    font-weight: 400;
+}
+
+.active .main-nav a:hover {
+    color: var(--color-2-lighter);
+}
+
+.active .main-nav .current a {
+    color: var(--color-2-lighter);
+}
+
+.active .intro-social li a {
+    color: var(--color-black);
+}
+
+.active .intro-social li a:hover {
+    color: var(--color-2-lighter);
+}
+
+.active .contact-social li a,  .active .contact-links a {
+    color: var(--color-black);
+}
+
+.active .contact-social li a:hover, .active .contact-links a:hover {
+    color: var(--color-2-lighter);
+}
+
+.active .folio-list__item-title {
+    color: white;
+}
+
+.active .folio-list__item-title:hover{
+    color: var(--color-2-lighter);
+}
+
+.active .bg-btn {
+    background-color: var(--color-gray-9);
+    color: var(--color-2-lighter);
+}
+
+.acitve .bg-btn:hover {
+    border: none;
+}
+
+.active .skill-bars li .progress {
+    background-color: var(--color-2-lighter);
+}
+
+.active .home-link  {
+    color: var(--color-black) !important;
+    font-weight: bolder !important;
+}
+
+.about-info__pic {
+    margin-left: 1px;
+}
+
+.theme-div {
+    position: fixed;
+    bottom: 0px;
+    justify-content: center;
+    height: auto;
+}
+
+#theme-btn.bg-btn {
+    padding: 5px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.light-theme-btn {
+    background: white;
 }
