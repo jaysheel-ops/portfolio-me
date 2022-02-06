@@ -4194,6 +4194,10 @@ img.u-pull-left {
     .ss-go-top {
         right : 6vw;
     }
+
+    .skills-sec {
+        padding: 0px 6vw;
+    }
 }
 
 
@@ -4280,6 +4284,10 @@ img.u-pull-left {
     font-weight: bolder !important;
 }
 
+.active .mobile-home-link a {
+    color: var(--color-peach);
+}
+
 .about-info__pic {
     margin-left: 1px;
 }
@@ -4295,8 +4303,10 @@ img.u-pull-left {
     padding: 5px;
     padding-top: 10px;
     margin: 0;
+    border:rgba(0, 0, 0, 0);
 }
 
-.light-theme-btn {
-    background: white;
+.light-theme-btn, .light-theme-btn:focus, .light-theme-btn:hover {  
+    background-color: var(--color-peach);
 }
+
