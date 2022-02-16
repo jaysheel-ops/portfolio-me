@@ -248,6 +248,7 @@
  * github.com/necolas/normalize.css
  * -------------------------------------------------------------------- */
 
+ 
 html {
     line-height              : 1.15;
     -webkit-text-size-adjust : 100%;
@@ -4301,7 +4302,7 @@ img.u-pull-left {
 
 #theme-btn.bg-btn {
     padding: 5px;
-    padding-top: 10px;
+    padding-top: 5px;
     margin: 0;
     border:rgba(0, 0, 0, 0);
 }
@@ -4310,3 +4311,11 @@ img.u-pull-left {
     background-color: var(--color-peach);
 }
 
+#theme-btn {
+    border-radius: 10px;
+    height: 50px;
+}
+
+#theme-sec {
+    left: -5px;
+}
