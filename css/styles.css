@@ -3805,6 +3805,23 @@ img.u-pull-left {
     color            : white;
 }
 
+.active .modal-popup__details {
+    background-color : rgba(0, 0, 0, 0.3);
+    font-size        : var(--text-xs);
+    line-height      : var(--vspace-1_25);
+    color            : white;
+    padding          : 0 1.2rem;
+    position         : absolute;
+    top              : var(--vspace-1);
+    left             : var(--vspace-1);
+}
+
+.active .modal-popup__details:focus,
+.active .modal-popup__details:hover {
+    background-color : var(--color-body);
+    color            : white;
+}
+
 /* ------------------------------------------------------------------- 
  * ## testimonials
  * ------------------------------------------------------------------- */
@@ -4330,7 +4347,41 @@ img.u-pull-left {
     color: var(--color-white);
 }
 
-.timeline__title,
-.timeline__meta {
+.timeline__title {
+    color: var(--color-1);
+}
+
+
+.active .timeline__title,
+.active .dictionary-header {
     color: var(--color-info-content);
 }
+
+.active .timeline__bullet {
+    background-color: var(--color-info-content);
+}
+
+.dictionary-header {
+    color: var(--color-1);
+}
+
+
+
+.dictionary-style dt {
+    color: var(--color-white);
+}
+
+.main-name {
+    color: var(--color-1);
+}
+
+.active .main-name {
+    color: var(--color-info-content)
+}
+
+.dictionary-header {
+    font-family: var(--font-mono);
+    font-size: 22px;
+}
+
+
