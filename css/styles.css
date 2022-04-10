@@ -11,7 +11,7 @@
 
     /* monospace
     */
-    --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
+    --font-mono :   
 }
 
 /* ------------------------------------------------------------------- 
@@ -3357,6 +3357,7 @@ img.u-pull-left {
 .about-info__text {
     padding     : var(--vspace-3_5) 10vw var(--vspace-2) 0;
     margin-left : -4rem;
+    padding-top: 50px;
 }
 
 .about-info__text .text-pretitle {
@@ -4318,4 +4319,18 @@ img.u-pull-left {
 
 #theme-sec {
     left: -5px;
+}
+
+.about-info__pic-block img {
+    height: 600px !important;
+    margin-left: 7rem;
+}
+
+.timeline__desc {
+    color: var(--color-white);
+}
+
+.timeline__title,
+.timeline__meta {
+    color: var(--color-info-content);
 }
