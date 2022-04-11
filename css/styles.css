@@ -4343,6 +4343,13 @@ img.u-pull-left {
     margin-left: 7rem;
 }
 
+@media screen and (max-width: 450px) {
+    .about-info__pic-block img {
+        height: 400px !important;
+        padding-right: 45px;   
+    }
+}
+
 .timeline__desc {
     color: var(--color-white);
 }
