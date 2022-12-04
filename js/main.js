@@ -10,13 +10,13 @@
      * -------------------------------------------------- */
     const tl = anime.timeline({
         easing: 'easeInOutCubic',
-        duration: 800,
+        duration: 900,
         autoplay: false
     })
         .add({
             targets: '#loader',
             opacity: 0,
-            duration: 1000,
+            duration: 0,
             begin: function (anim) {
                 window.scrollTo(0, 0);
             }
@@ -38,7 +38,7 @@
             targets: ['.s-intro .text-pretitle', '.s-intro .text-huge-title'],
             translateX: [100, 0],
             opacity: [0, 1],
-            delay: anime.stagger(400)
+            delay: anime.stagger(200)
         })
         .add({
             targets: '.circles span',
@@ -192,7 +192,7 @@
                         opacity: [0, 1],
                         translateY: [100, 0],
                         delay: anime.stagger(400, { start: 200 }),
-                        duration: 800,
+                        duration: 400,
                         easing: 'easeInOutCubic',
                         begin: function (anim) {
                             current.classList.add("ss-animated");
@@ -329,7 +329,7 @@
 
         const moveTo = new MoveTo({
             tolerance: 0,
-            duration: 1200,
+            duration: 900,
             easing: 'easeInOutCubic',
             container: window
         }, easeFunctions);
@@ -341,7 +341,7 @@
     }; // end ssMoveTo
 
     /* Toggle Theme Function */
-    
+
 
 
     /* Initialize
